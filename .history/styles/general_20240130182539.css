@@ -8,7 +8,7 @@ table {
   margin-left: 10%;
   margin-right: 10%;
   max-width: 60rem;
-  border-spacing: 2rem 2rem;
+  border-spacing: 1rem 1rem;
   border-radius: 30px;
   width: 80%;
   height: 80%;
@@ -16,7 +16,7 @@ table {
 
 }
 
-td {
+.td {
   border: solid 1px ;
   border-radius: 30px;
   background-color: #8894b8c8;
@@ -30,28 +30,30 @@ td {
   background-position: -100vw;
   animation: shine 10s ease infinite;
   filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
+.url {
+  
+  text-align: center;
+  vertical-align: middle;
+}
 
-td.url a{
-  display: block;
-  cursor:pointer;
-  color: black;
+.url a{
+  
+  vertical-align: middle;
+  width: 100%;
   height: 100%;
-}
-
-td.url .label{
-  position:fixed;
-  top: 40%;
-  z-index: -1;
-  padding-left: 1rem;
+  text-decoration: none;
+  color: black;
   font-family: Helvetica;
-  filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
   font-weight: 700;
   font-size: 50px;
-  align-items: center;
-  padding-left: 3rem;
 }
+
+
 
 body {
   background: linear-gradient(-45deg, #654d4d, #4124a0, #043244, #024837);

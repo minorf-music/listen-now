@@ -8,7 +8,7 @@ table {
   margin-left: 10%;
   margin-right: 10%;
   max-width: 60rem;
-  border-spacing: 2rem 2rem;
+  border-spacing: 1rem 1rem;
   border-radius: 30px;
   width: 80%;
   height: 80%;
@@ -32,25 +32,16 @@ td {
   filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
 }
 
-
-td.url a{
-  display: block;
-  cursor:pointer;
-  color: black;
+a {
   height: 100%;
-}
-
-td.url .label{
-  position:fixed;
-  top: 40%;
-  z-index: -1;
-  padding-left: 1rem;
+  display: block;
+  width: 100%; /* Make the links fill the entire width of the cell */
   font-family: Helvetica;
-  filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
   font-weight: 700;
   font-size: 50px;
-  align-items: center;
-  padding-left: 3rem;
+  color: black;
+  text-align: center;
+  text-decoration: none;
 }
 
 body {
