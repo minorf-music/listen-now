@@ -8,17 +8,10 @@ table {
   margin-left: 10%;
   margin-right: 10%;
   max-width: 60rem;
-  border-spacing: 1rem 1rem;
+  border: 2px solid silver;
   border-radius: 30px;
   width: 80%;
   height: 80%;
- 
-
-}
-
-td {
-  border: solid 1px ;
-  border-radius: 30px;
   background-color: #8894b8c8;
   background-image: linear-gradient(
     to right,
@@ -30,20 +23,28 @@ td {
   background-position: -100vw;
   animation: shine 10s ease infinite;
   filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
+
+}
+
+td {
+  
+
+  padding: 8px;
+  height: 10rem;
+}
+
+td.icon {
+  width: 10rem;
 }
 
 td.url {
   font-family: Helvetica;
-  filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
-  font-weight: 700;
+  color: #58a6ff;
   font-size: 50px;
-  padding: 1rem;
 }
 
-td.url a{
-  cursor:pointer;
-  color: black;
-}
+
+
 
 body {
   background: linear-gradient(-45deg, #654d4d, #4124a0, #043244, #024837);
@@ -90,10 +91,11 @@ body {
 
 .icon {
   width: 8rem;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   align-items: baseline;
   filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
-  width: 10rem;
 } 
 
 @keyframes shine {
@@ -115,4 +117,8 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+svg {
+  filter: drop-shadow(30px 50px 20px rgb(0 0 0 / 0.4));
 }

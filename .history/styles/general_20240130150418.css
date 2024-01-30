@@ -8,17 +8,10 @@ table {
   margin-left: 10%;
   margin-right: 10%;
   max-width: 60rem;
-  border-spacing: 1rem 1rem;
+  border: 2px solid silver;
   border-radius: 30px;
   width: 80%;
   height: 80%;
- 
-
-}
-
-td {
-  border: solid 1px ;
-  border-radius: 30px;
   background-color: #8894b8c8;
   background-image: linear-gradient(
     to right,
@@ -28,27 +21,33 @@ td {
   );
   background-repeat: no-repeat;
   background-position: -100vw;
-  animation: shine 10s ease infinite;
-  filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
+  animation: shine 4s ease infinite;
+
+}
+
+td {
+  
+
+  padding: 8px;
+  height: 10rem;
+}
+
+td.icon {
+  width: 10rem;
 }
 
 td.url {
-  font-family: Helvetica;
-  filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
-  font-weight: 700;
+  color: #58a6ff;
   font-size: 50px;
-  padding: 1rem;
 }
 
-td.url a{
-  cursor:pointer;
-  color: black;
-}
+
+
 
 body {
   background: linear-gradient(-45deg, #654d4d, #4124a0, #043244, #024837);
 	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: gradient 15s ease infinite;
 	height: 100vh;
   padding-top: 6rem;
   padding-left: 2rem;
@@ -66,7 +65,7 @@ body {
   );
   background-repeat: no-repeat;
   background-position: -100vw;
-  animation: shine 6s ease infinite;
+  animation: shine 4s ease infinite;
   font-family: Helvetica;
   font-weight: 700;
   padding-top: 4rem;
@@ -76,7 +75,6 @@ body {
   border-radius: 30px;
   max-width: 60rem;
   border: 2px solid silver;
-  filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
 }
 
 .header-title {
@@ -90,10 +88,6 @@ body {
 
 .icon {
   width: 8rem;
-  padding: 1rem;
-  align-items: baseline;
-  filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
-  width: 10rem;
 } 
 
 @keyframes shine {

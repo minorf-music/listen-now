@@ -8,7 +8,7 @@ table {
   margin-left: 10%;
   margin-right: 10%;
   max-width: 60rem;
-  border-spacing: 1rem 1rem;
+
   border-radius: 30px;
   width: 80%;
   height: 80%;
@@ -36,7 +36,7 @@ td.url {
   font-family: Helvetica;
   filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
   font-weight: 700;
-  font-size: 50px;
+  font-size: 60px;
   padding: 1rem;
 }
 

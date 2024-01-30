@@ -1,0 +1,18 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  display: flex;
+  justify-content:center;
+  background-color: #212124;
+}
+
+.header-title {
+  color: aliceblue;
+  font-size: 80px;
+  font-family: system-ui;
+  font-weight: 500;
+  
+}
