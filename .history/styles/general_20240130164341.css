@@ -97,11 +97,18 @@ body {
 }
 
 .footer {
-  margin-top: 7rem;
+  padding-top: 5rem;
   font-size: 40px;
   color: antiquewhite;
-  width: fit-content;
-  padding-left: 41%;
+  background-color: #8894b8c8;
+  background-image: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(255,255,255,0.3) 50%,
+    transparent 100%
+  );
+  background-repeat: no-repeat;
+  background-position: -100vw;
 }
 
 

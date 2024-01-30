@@ -94,15 +94,7 @@ body {
   align-items: baseline;
   filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
   width: 10rem;
-}
-
-.footer {
-  margin-top: 7rem;
-  font-size: 40px;
-  color: antiquewhite;
-  width: fit-content;
-  padding-left: 41%;
-}
+} 
 
 
 
