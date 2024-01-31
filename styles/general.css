@@ -12,8 +12,6 @@ table {
   border-radius: 30px;
   width: 80%;
   height: 80%;
- 
-
 }
 
 td {
@@ -32,26 +30,31 @@ td {
   filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
 }
 
-
 td.url a{
-  display: block;
-  cursor:pointer;
-  color: black;
-  height: 100%;
-}
-
-td.url .label{
-  position:fixed;
-  top: 40%;
-  z-index: -1;
-  padding-left: 1rem;
+  text-decoration: none;
   font-family: Helvetica;
-  filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
   font-weight: 700;
   font-size: 50px;
-  align-items: center;
-  padding-left: 3rem;
+  color: black;
 }
+
+
+td.url a .surface{
+  position: absolute;
+  top: 0;
+  cursor:pointer;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+td.url a .label{
+  position: relative;
+  z-index: 1;
+  padding-left: 2rem;
+  filter: drop-shadow(0.5rem 1rem 1rem rgb(0 0 0 / 0.4));
+}
+  
 
 body {
   background: linear-gradient(-45deg, #654d4d, #4124a0, #043244, #024837);
@@ -124,4 +127,14 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+
+@keyframes shine {
+  0% {
+    background-position: -100vw;    
+  }
+  100% {
+    background-position: 100vw;   
+  }
 }
