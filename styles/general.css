@@ -85,6 +85,8 @@ body {
 
 .header-title .song-title{
   font-style: italic;
+  font-family: 'Chalkduster', sans-serif;
+  filter: drop-shadow(0.5rem 1rem 1rem rgba(85, 3, 3, 0.4));
 }
 
 .icon {
